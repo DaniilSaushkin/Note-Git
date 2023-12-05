@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"bb23830f417648c7","type":"text","text":"**Staged**","x":-140,"y":-40,"width":120,"height":60,"color":"6"},
+		{"id":"b758255159d1ba23","type":"text","text":"**Modified**","x":70,"y":60,"width":140,"height":60,"color":"5"},
+		{"id":"ef3e7e6bced40ad9","type":"text","text":"**Unmodified**","x":60,"y":-140,"width":160,"height":60,"color":"4"},
+		{"id":"3171a90ed3596756","type":"text","text":"**Untracked**","x":-400,"y":-40,"width":140,"height":60,"color":"1"},
+		{"id":"349ff9bc9f485fac","type":"text","text":"Новые файлы в **Рабочей директории**, которых нет в области **Репозитория**","x":-449,"y":60,"width":238,"height":140,"color":"#eeff00"},
+		{"id":"2e2558c867eef6e2","type":"text","text":"Измененные файлы в **Рабочей директории**, которые также присутствуют в **Репозитории**","x":21,"y":160,"width":238,"height":160,"color":"#eeff00"},
+		{"id":"062e4e2cae252f26","type":"text","text":"Файлы находящиеся в области **Индексации**, то есть готовящиеся для добавления в область **Репозитория**","x":-199,"y":-380,"width":238,"height":160,"color":"#eeff00"},
+		{"id":"80ecb08a24203366","type":"text","text":"Файлы находящиеся в **Репозитории** и которые не были изменены в **Рабочей директории**","x":360,"y":-190,"width":238,"height":160,"color":"#eeff00"},
+		{"id":"2376d1be2a97b6a1","type":"text","text":"Вывод: в Git присутствует синхронизация **Рабочей директории** и **Репозитория**","x":360,"y":160,"width":238,"height":160,"color":"#eeff00"}
+	],
+	"edges":[
+		{"id":"b3b2449dab3c0127","fromNode":"3171a90ed3596756","fromSide":"right","toNode":"bb23830f417648c7","toSide":"left"},
+		{"id":"55f6e1b5f2be8189","fromNode":"b758255159d1ba23","fromSide":"left","toNode":"bb23830f417648c7","toSide":"bottom"},
+		{"id":"e3c1f1eb4f501b77","fromNode":"bb23830f417648c7","fromSide":"top","toNode":"ef3e7e6bced40ad9","toSide":"left"},
+		{"id":"a7bc6688c48c396a","fromNode":"ef3e7e6bced40ad9","fromSide":"bottom","toNode":"b758255159d1ba23","toSide":"top"},
+		{"id":"8c8fec7a3a4783fc","fromNode":"3171a90ed3596756","fromSide":"bottom","toNode":"349ff9bc9f485fac","toSide":"top","toEnd":"none"},
+		{"id":"fcfd1cc44823eef5","fromNode":"b758255159d1ba23","fromSide":"bottom","toNode":"2e2558c867eef6e2","toSide":"top","toEnd":"none"},
+		{"id":"62ef4cfe05538f25","fromNode":"bb23830f417648c7","fromSide":"top","toNode":"062e4e2cae252f26","toSide":"bottom","toEnd":"none"},
+		{"id":"f58802c3f116b8c9","fromNode":"ef3e7e6bced40ad9","fromSide":"right","toNode":"80ecb08a24203366","toSide":"left","toEnd":"none"},
+		{"id":"7a2ee2d4e41e2477","fromNode":"2e2558c867eef6e2","fromSide":"right","toNode":"2376d1be2a97b6a1","toSide":"left"},
+		{"id":"ea75873252ea412a","fromNode":"80ecb08a24203366","fromSide":"bottom","toNode":"2376d1be2a97b6a1","toSide":"top"}
+	]
+}
