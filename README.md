@@ -1,2 +1,2 @@
-# Note-Git
-**Just my notes about Git**
+# 📒 Note-Git
+💡 **Just my notes about Git** 💡
